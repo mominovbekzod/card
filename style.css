@@ -14,12 +14,12 @@
     margin-top: 200px;
     display: flex;
     gap: 40px;
+    justify-content: center;
 }
 
 
 .card {
     padding: 30px 25px;
-    margin-left: 120px;
     width: 400px;
     border-radius: 30px;
     background-color: #373737;
@@ -102,32 +102,40 @@
     border-radius: 10px;
     background-color: rgba(100, 77, 234, 1);
 }
-.card-lite{
+
+.card-lite {
     background-color: #fff;
     color: #000;
 }
-.card-lite input{
+
+.card-lite input {
     border: 1px solid #a8a8a8;
     background-color: #fff;
     color: #000;
 }
-.card-lite .box-1{
+
+.card-lite .box-1 {
     background-color: #fff;
 }
-.card-lite H3{
+
+.card-lite H3 {
     color: #000;
 }
-.card-lite p{
+
+.card-lite p {
     color: #000;
 }
-.card-darck{
-    background-color:rgba(35,38,57,1) ;
+
+.card-darck {
+    background-color: rgba(35, 38, 57, 1);
 }
-.card-darck .box-1{
+
+.card-darck .box-1 {
     background: #42445D;
     color: #CECECE;
 }
-.card-darck input{
+
+.card-darck input {
     color: #CECECE;
     background: #42445D;
 }
